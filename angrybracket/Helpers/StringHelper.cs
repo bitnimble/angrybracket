@@ -8,6 +8,14 @@ namespace AngryBracket
 {
 	public static class StringHelper
 	{
+		public static int IndexOf(this string s, Func<char, bool> pred)
+		{
+			for (int i = 0; i < s.Length; i++)
+				if (pred(s[i]))
+					return i;
+			return -1;
+		}
+
 		public static string FormatString(this string format, params object[] args)
 		{
 			return string.Format(format, args);
