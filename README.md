@@ -32,7 +32,7 @@ Note that all of the classes (or at least the extension method classes -- datast
 | FileHelper | Extension methods for file and directory related classes. |
 | IEnumerableHelper | Extension methods for IEnumerables. |
 | IOHelper | Extension methods for Streams and Readers/Writers. |
-| JsonHelper | A tiny helper method for parsing and serialising Json, wrapping the System.Runtime.Serialization standard library. No clue about the performance. |
+| JsonHelper | A tiny helper method for parsing and serialising Json, wrapping the System.Runtime.Serialization standard library. Not intended for high performance use; it's basically for when you're including this library already, and you're too lazy to get Newtonsoft.Json |
 | MathHelper | Provides extension methods for number types (int, long, float, etc). |
 | NativeMethods | A collection of native win32 methods used by some of the classes in AngryBracket. You probably won't use these. |
 | NaturalSortComparer | An IComparer that sorts things alphabetically in the common sense way. See [here](https://en.wikipedia.org/wiki/Natural_sort_order) for info. |
