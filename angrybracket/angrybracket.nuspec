@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AngryBracket</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>anonymousthing and James Venning</authors>
+    <owners>anonymousthing and James Venning</owners>
+    <licenseUrl>https://raw.githubusercontent.com/anonymousthing/angrybracket/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/anonymousthing/angrybracket</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An all-in-one helper library containing a set of useful extension methods and helper classes. Intended to augment the .NET standard library and adds some classes that should have been included with the standard library.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>all in one helper library tools extension methods</tags>
+  </metadata>
+</package>
